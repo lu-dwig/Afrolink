@@ -129,6 +129,13 @@ button { cursor: pointer; }
 
 ion-icon { pointer-events: none; }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: var(--ff-rubik);
   font-size: 10px;
@@ -140,6 +147,7 @@ body {
   color: var(--onyx);
   font-size: 1.6rem;
   line-height: 1.7;
+  position: relative;
 }
 
 :focus-visible { outline-offset: 4px; }
@@ -878,7 +886,7 @@ body {
  * responsive for larger than 540px screen
  */
 
-@media (min-width: 540px) {
+@media (min-width: 350px) {
 
   /**
    * REUSED STYLE
