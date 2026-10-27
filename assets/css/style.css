@@ -886,7 +886,7 @@ body {
  * responsive for larger than 540px screen
  */
 
-@media (min-width: 350px) {
+@media (min-width: 250px) {
 
   /**
    * REUSED STYLE
